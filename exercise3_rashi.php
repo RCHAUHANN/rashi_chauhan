@@ -48,3 +48,27 @@ else{
 }
 
 ?>
+
+
+
+
+<?php 
+echo "<h3>task 5</h3>";
+for($i=0;$i<=8;$i++){  
+for($j=8-$i;$j>=1;$j--){  
+echo $j;  
+}  
+echo "<br>";  
+}  
+?>  
+
+
+<?php  
+echo "<h3>task 6</h3>";
+for($i=0;$i<=8;$i++){  
+for($j=1;$j<=$i;$j++){  
+echo "* ";  
+}  
+echo "<br>";  
+}  
+?>  
